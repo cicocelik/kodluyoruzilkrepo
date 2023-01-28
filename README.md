@@ -8,6 +8,7 @@ git clone https://github.com/cicocelik/kodluyoruzilkrepo.git
 ## Usage
 Projeyi cloneladıktan sonra Visual Studio Code programında açınız.
 <p>Linux için:</p>
+
 ```
 cd kodluyoruzilkrepo
 code .
