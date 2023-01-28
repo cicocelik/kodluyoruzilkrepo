@@ -15,5 +15,7 @@ code .
 ## Contributing
 Pull requestler kabul edilir. Büyük değişiklikler için, lütfen önce neyi değiştirmek istediğinizi tartışmak için bir konu açınız.
 ## License
+
 [<u>MIT</u>](https://opensource.org/licenses/MIT)
+
 ![Proje resmi](https://github.com/cicocelik/kodluyoruzilkrepo/blob/main/img/kodluyoruz1.jpg?raw=true)
