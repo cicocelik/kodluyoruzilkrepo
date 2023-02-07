@@ -1,0 +1,105 @@
+<!-- 
+    emmet.io sitesinden de farklılıkları görebiliriz.
+    -etiket isimlerini direk verebiliriz.
+    + kardeş öğe
+    > içinde öğe
+    ^ yukarı çık ve öğe oluştur.
+    * çarp -> p*3
+    lorem ?? -> çok uzun bir yazı yazar.
+    lorem4 -> 4 kelimelik lorem üret.
+    . -> class
+    # -> id
+ -->
+
+<!-- h1+p+p+h2+p+p+p+p cursor en sonda olmalı -->
+
+<h1></h1>
+<p></p>
+<p></p>
+<h2></h2>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+<!-- h1+p*2+h2+p*4 -->
+
+<h1></h1>
+<p></p>
+<p></p>
+<h2></h2>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+<!-- içinde işareti ul>li*5 -->
+
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+<!-- içinde olan yukarı çık ile dışarı çıkar ve öyle oluşturur. ul>li*3^p*2 -->
+
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<p></p>
+<p></p>
+
+<!-- Lorem ipsum: anlamsız yazılardır. Html yapıları oluştururken içeriklere ihtiyaç var ve bunun için lorem ipsum kullanılır. Oluşturduğumuz yapıları içerikle birlikte görebilmek için... -->
+
+<p>Lorem ipsum dolor sit.</p>   <!-- p>lorem4 -->
+
+<!-- ul>li*3>lorem1^p*2>lorem4+h3>lorem1 -> hatalı olan <- -->
+
+<ul>
+    <li>Lorem.</li>
+    <li>Nihil!</li>
+    <li>Doloremque!</li>
+    <p>
+    Lorem ipsum dolor sit.
+        <h3>Lorem.</h3>
+    </p>
+    <p>
+    Provident rerum id magnam!
+        <h3>Eveniet?</h3>
+    </p>
+</ul>
+
+<!-- ul>li*3>lorem1^^p*2>lorem4^h3>lorem1 -->
+
+<ul>
+    <li>Lorem.</li>
+    <li>Aperiam.</li>
+    <li>Nihil.</li>
+</ul>
+<p>Lorem ipsum dolor sit.</p>
+<p>Exercitationem illum magni tempore?</p>
+<h3>Lorem.</h3>
+
+<h3 class="deneme">Lorem.</h3>  <!-- h3.deneme>lorem1 boşluk olmamalı -->
+
+h3 <div class="deneme">Lorem.</div> <!-- h3 .deneme>lorem1 -->
+
+<h3 id="class">Lorem.</h3>  <!-- h3#class>lorem1 -->
+
+<h3 class="deneme" id="class">Lorem.</h3>   <!-- hem class hem id için h3.deneme#class>lorem1 -->
+
+<!-- ul>li.class -->
+
+<ul>
+    <li class="class"></li>
+</ul>
+
+<!-- ul>.class -->
+
+<ul>
+    <li class="class"></li>
+</ul>
